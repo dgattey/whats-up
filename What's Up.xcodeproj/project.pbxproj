@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75D8B1FF29237646004EB302 /* What_s_UpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8B1FE29237646004EB302 /* What_s_UpApp.swift */; };
+		75D8B1FF29237646004EB302 /* WhatsUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8B1FE29237646004EB302 /* WhatsUpApp.swift */; };
 		75D8B20129237646004EB302 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8B20029237646004EB302 /* ContentView.swift */; };
 		75D8B20329237647004EB302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D8B20229237647004EB302 /* Assets.xcassets */; };
 		75D8B20629237647004EB302 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D8B20529237647004EB302 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		75D8B1FB29237646004EB302 /* What's Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What's Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75D8B1FE29237646004EB302 /* What_s_UpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_s_UpApp.swift; sourceTree = "<group>"; };
+		75D8B1FE29237646004EB302 /* WhatsUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpApp.swift; sourceTree = "<group>"; };
 		75D8B20029237646004EB302 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75D8B20229237647004EB302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75D8B20529237647004EB302 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		75D8B1FD29237646004EB302 /* What's Up */ = {
 			isa = PBXGroup;
 			children = (
-				75D8B1FE29237646004EB302 /* What_s_UpApp.swift */,
+				75D8B1FE29237646004EB302 /* WhatsUpApp.swift */,
 				75D8B20029237646004EB302 /* ContentView.swift */,
 				75D8B20229237647004EB302 /* Assets.xcassets */,
 				75D8B20429237647004EB302 /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75D8B20129237646004EB302 /* ContentView.swift in Sources */,
-				75D8B1FF29237646004EB302 /* What_s_UpApp.swift in Sources */,
+				75D8B1FF29237646004EB302 /* WhatsUpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +270,8 @@
 				DEVELOPMENT_TEAM = KCH4HBZ68M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "What's Up";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,7 +282,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dylangattey.What-s-Up";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylangattey.whats-up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,6 +301,8 @@
 				DEVELOPMENT_TEAM = KCH4HBZ68M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "What's Up";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dylangattey.What-s-Up";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylangattey.whats-up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
